@@ -33,10 +33,6 @@ The pipeline automates:
 - **AWS Glue Crawler (Curated)** → Updates schema for curated data.
 - **Amazon Athena** → Enables SQL queries for analysis.
 
-## 📊 Architecture Diagram
-
-![Architecture Diagram](architecture-diagram.png)
-
 ## ⚡ Lambda Function
 
 The Lambda function ingests data, saving it to S3 (staging). It currently uses sample JSON but can integrate with APIs like Spotify.
